@@ -32,5 +32,35 @@ section{
     color:transparent;
     font-size:35px;
     padding:10px;
-    margin:0px;
+    margin:0px;
+}
+
+@media (max-width:721px){
+    body{
+        width:99%;
+        margin:auto;
+        padding:0px;
+        height:90vh;
+    }
+    
+    section{
+        display:grid;
+        grid-template-rows:1fr 1fr;
+        grid-template-columns:1fr;
+        place-items:center;
+        border-radius:30px;
+        height:90vh;
+        margin-top:15px;
+    }
+    
+    .name-container{
+        font-size:35px;
+        width:90%;
+        height:50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction:column;
+        line-height:0px;
+    }
 }
